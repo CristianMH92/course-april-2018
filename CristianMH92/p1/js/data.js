@@ -1,7 +1,7 @@
 (function DATOS(document){
     'use strict';
    
-   const URL = '../json/datos.json';
+   const URL = '../json/data.json';
   
    fetch(URL)
    .then(response=>response.json())
