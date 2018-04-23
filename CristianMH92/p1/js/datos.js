@@ -5,17 +5,17 @@
   
    fetch(URL)
    .then(response=>response.json())
-    .then(response=>datos(response))
+    .then(response=>information(response))
     .catch('Error');
     
-    const datos = (response) => {
+    const information = (response) => {
         for(const resp in response.data)
             {
                 
-                let nombre = response.data[resp].nombre;
-                let mascota = response.data[resp].mascota;
+                let name = response.data[resp].name;
+                let color = response.data[resp].color;
                 
-                document.getElementById("contenidoDatos").innerHTML += `<tr><td>${nombre}</td><td>${mascota}</td></tr>`;
+                document.getElementById("datacontent").innerHTML += `<tr><td>${name}</td><td>${color}</td></tr>`;
             }
     }
 

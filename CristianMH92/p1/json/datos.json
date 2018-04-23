@@ -2,17 +2,17 @@
    "data" :
    [
        {
-           "nombre" : "Paco",
-           "mascota": "perro"
+           "name" : "Eddie",
+           "color": "Red"
 
        },
        {
-           "nombre" : "luis",
-           "mascota" : "gato"
+           "name" : "Oscar",
+           "color" : "Green"
        },
        {
-           "nombre" : "Josimar",
-           "mascota" : "loro"
+           "name" : "Alberto",
+           "color" : "Yellow"
        }
    ]
 }
