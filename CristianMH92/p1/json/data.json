@@ -1,0 +1,18 @@
+{
+   "data" :
+   [
+       {
+           "name" : "Eddie",
+           "color": "Red"
+
+       },
+       {
+           "name" : "Oscar",
+           "color" : "Green"
+       },
+       {
+           "name" : "Alberto",
+           "color" : "Yellow"
+       }
+   ]
+}
