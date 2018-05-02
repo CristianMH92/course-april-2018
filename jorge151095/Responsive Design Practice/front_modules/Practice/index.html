@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UFT-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no,
+              initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <title>Practice</title>
+        <link rel="stylesheet" href="Practice.css">
+    </head>
+    <body class = "body-main">
+        <section class = "grid-section">
+            <!--<div class = "container">-->
+                <section class= "grid-section__text">
+                    <picture class = "grid-section__text__iconcentral">
+                        <img src="icons/centraal.png" alt=""/>
+                    </picture>
+                    <h1 class = "grid-section__text__h1__false">
+                    </h1>
+                    <h1 class = "grid-section__text__h1">
+                        Escucha tu próximo libro gratis
+                    </h1>
+                    <p class = "grid-section__text__p1">
+                        Encuentra tus libros favoritos en el catálogo de beek con más de <b>200,000</b> audiolibros disponibles
+                    </p>
+                    <button class = "grid-section__text__button1" onclick="showModal()">
+                        Prueba 30 días gratis
+                    </button>
+                    <p class = "grid-section__text__p2">
+                        Despues de 30 días, $299 al mes. Cancela fácil cuando quieras
+                    </p>
+                </section>
+                <section class= "grid-section__image">
+                    <picture class = "grid-section__image1">
+                        <img src="img/book1.jpg" alt=""/>
+                    </picture>
+                    <picture class = "grid-section__image2">
+                        <img src="img/book2.jpg" alt=""/>
+                    </picture>
+                    <picture class = "grid-section__image3">
+                        <img src="img/book3.jpg" alt=""/>
+                    </picture>
+                    <picture class = "grid-section__image4">
+                        <img src="img/book4.jpg" alt=""/>
+                    </picture>
+                    <picture class = "grid-section__image5">
+                        <img src="img/book5.jpg" alt=""/>
+                    </picture>
+                    <picture class = "grid-section__image6">
+                        <img src="img/book6.jpg" alt=""/>
+                    </picture>
+                    <picture class = "grid-section__image7">
+                        <img src="img/book7.jpg" alt=""/>
+                    </picture>
+                    <picture class = "grid-section__image8">
+                        <img src="img/book8.jpg" alt=""/>
+                    </picture>
+                    <picture class = "grid-section__image9">
+                        <img src="img/book9.jpg" alt=""/>
+                    </picture>
+                    <picture class = "grid-section__image10">
+                        <img src="img/book10.jpg" alt=""/>
+                    </picture>
+                    <picture class = "grid-section__image11">
+                        <img src="img/book11.jpg" alt=""/>
+                    </picture>
+                </section>
+            <!--</div>-->
+        </section>
+        <section class = "down-section">
+            <section class = "down-section-first"></section>
+            <section class = "down-section-int">
+                <div class = "down-section-int__div1" onclick="showTextFirst()">
+                    <div class = "down-section-int__div__image">
+                        <picture class = "down-section-int__div__image1">
+                            <img src="icons/search-icon.png" alt=""/>
+                        </picture>
+                    </div>
+                    <p class = "down-section-int__div__title">
+                        Descubre
+                    </p>
+                    <p class = "down-section-int__div__text">
+                        Encuentra tus libro favoritos en el catálogo de beek con <b>más de 20,000</b> audiolibros disponibles.
+                    </p>
+                </div>
+                <div class = "down-section-int__div2" onclick="showTextSecond()">
+                    <div class = "down-section-int__div__image">
+                        <picture class = "down-section-int__div__image1">
+                            <img src="icons/download-icon.png" alt=""/>
+                        </picture>
+                    </div>
+                    <p class = "down-section-int__div__title">
+                        Descarga
+                    </p>
+                    <p class = "down-section-int__div__text">
+                        <b>Lleva contigo</b> siempre tus libros favoritos y no pares de escuchar
+                    </p>
+                </div>
+                <div class = "down-section-int__div3" onclick=" showTextThird()">
+                    <div class = "down-section-int__div__image">
+                        <picture class = "down-section-int__div__image1">
+                            <img src="icons/audio-icon.png" alt=""/>
+                        </picture>
+                    </div>
+                    <p class = "down-section-int__div__title">
+                        Disfruta
+                    </p>
+                    <p class = "down-section-int__div__text">
+                        Disfruta de tus libros por <b>$299</b> al mes en AudioBeeks
+                    </p>
+                </div>
+                <div class = "down-section-int__div__text__hidden">
+                    <div id = "down-section-int__div__text__first" >
+                        Encuentra tus libro favoritos en el catálogo de beek con <b>más de 20,000</b> audiolibros disponibles.
+                    </div>
+                    <div id = "down-section-int__div__text__second">
+                        <b>Lleva contigo</b> siempre tus libros favoritos y no pares de escuchar
+                    </div>
+                    <div id = "down-section-int__div__text__third">
+                        Disfruta de tus libros por <b>$299</b> al mes en AudioBeeks
+                    </div>
+                </div>
+            </section>
+        </section>
+        <section id = "modal">
+            <div class = "modal-hijo">
+                <div class = "modal-hijo__close" onclick="hideModal()">X</div>
+                <h1> Felicidades &#x1F64C</h1>
+                <h2> <b>Ya tienes Audiolibros por 30 días GRATIS </b></h2>
+                <p class = "modal-h3"> Tu periodo de prueba es del 10/04/2018 al 10/05/2018</p>
+                <p> Inicia sesión en beek y disfruta de tus Audiolibros favoritos</p>
+            </div>
+        </section>
+        <script type="text/javascript" src="Practice.js"></script>
+    </body>
+</html>

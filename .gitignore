@@ -2,4 +2,5 @@
 *.txt
 .idea/
 **/node_modules/
-
+**/jorge151095/Polymer/bower_components/
+**/bower_components/
