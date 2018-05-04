@@ -5,7 +5,7 @@
   
    fetch(URL)
    .then(response=>response.json())
-    .then(response=>information(response))
+    .then(response=>fillTable(response.data))
     .catch('Error');
     
     const information = (response) => {
